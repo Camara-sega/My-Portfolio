@@ -31,66 +31,6 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Delic Emploi",
-    subtitle: "Plateforme de formation",
-    description:
-      "Plateforme de formation et d'accompagnement vers l'emploi avec interface moderne.",
-    longDescription:
-      "Delic Emploi est une plateforme complete de formation et d'accompagnement vers l'emploi. Elle connecte les candidats aux opportunites professionnelles grace a une interface intuitive et moderne. Le systeme inclut la gestion des formations, le suivi des candidatures et un tableau de bord personnalise pour chaque utilisateur.",
-    tags: ["React.js", "Tailwind CSS", "Responsive", "API REST"],
-    features: [
-      "Interface utilisateur responsive",
-      "Systeme de recherche avancee",
-      "Tableau de bord candidat",
-      "Gestion des formations",
-    ],
-    icon: <GraduationCap size={22} />,
-    gradient: "from-primary/20 to-primary/5",
-    link: "#",
-    year: "2025",
-    image: "/images/project-delic-emploi.jpg",
-  },
-  {
-    title: "Gestion Scolaire",
-    subtitle: "Application de gestion",
-    description:
-      "Application complete de gestion scolaire avec authentification securisee.",
-    longDescription:
-      "Une application de gestion scolaire robuste construite avec Node.js et MySQL. Elle permet la gestion complete des eleves, des notes, des classes et des rapports. Le systeme d'authentification securise protege les donnees sensibles et offre differents niveaux d'acces pour les administrateurs et enseignants.",
-    tags: ["Node.js", "MySQL", "Prisma", "Auth"],
-    features: [
-      "Authentification securisee",
-      "Gestion des eleves et notes",
-      "Generation de rapports",
-      "Panel administrateur",
-    ],
-    icon: <Database size={22} />,
-    gradient: "from-accent/20 to-accent/5",
-    link: "#",
-    year: "2025",
-    image: "/images/project-gestion-scolaire.jpg",
-  },
-  {
-    title: "Marketplace",
-    subtitle: "E-commerce platform",
-    description:
-      "Plateforme de vente de produits et services avec panier et recherche avancee.",
-    longDescription:
-      "Une marketplace complete permettant la vente de produits et services en ligne. L'application inclut un systeme de panier intelligent, une recherche avancee avec filtres, une interface vendeur pour gerer les produits et un processus de commande fluide. L'architecture est pensee pour supporter une forte charge.",
-    tags: ["React.js", "Node.js", "API REST", "MongoDB"],
-    features: [
-      "Systeme de panier intelligent",
-      "Recherche avec filtres avances",
-      "Interface vendeur complete",
-      "Processus de commande fluide",
-    ],
-    icon: <ShoppingBag size={22} />,
-    gradient: "from-primary/20 to-accent/5",
-    link: "#",
-    year: "2024",
-    image: "/images/project-marketplace.jpg",
-  },
-  {
     title: "Portfolio 2026",
     subtitle: "Site personnel",
     description:
@@ -106,10 +46,69 @@ const projects: Project[] = [
     ],
     icon: <Layers size={22} />,
     gradient: "from-accent/20 to-primary/5",
-    link: "#",
+    link: "https://segacamara.vercel.app/",
     year: "2026",
-    image: "/images/project-portfolio.jpg",
+    image: "/images/ojep.jpeg",
   },
+  {
+    title: "Projet HOLICORP ",
+    subtitle: "Site Web d'OJEP ",
+    description:
+      "Site vitrine pour la presentation d'Organisation des Jeunes Patrons du Mali (OJEP)",
+    longDescription:
+      " J’ai créé un site web moderne et responsive pour OJEP, en mettant l’accent sur une expérience utilisateur fluide et intuitive. Chaque élément a été pensé pour être clair, esthétique et fonctionnel, avec un code optimisé pour la performance. Le projet m’a permis d’allier design et développement, tout en respectant les besoins des utilisateurs.",
+    tags: ["React.js", " CSS", "Responsive",],
+    features: [
+      "Interface utilisateur responsive",
+
+    ],
+    icon: <GraduationCap size={22} />,
+    gradient: "from-primary/20 to-primary/5",
+    link: "https://ojep-mali.org/",
+    year: "2025",
+    image: "/images/ojep.jpeg",
+  },
+  {
+    title: "Gestion Scolaire",
+    subtitle: "Application de gestion",
+    description:
+      "Application complete de gestion scolaire avec authentification securisee.",
+    longDescription:
+      "Une application de gestion scolaire robuste construite avec Node.js et MySQL. Elle permet la gestion complete des eleves, des notes, des classes et des rapports. Le systeme d'authentification securise protege les donnees sensibles et offre differents niveaux d'acces pour les administrateurs et enseignants.",
+    tags: ["react.js", "Node.js", "MySQL", "Prisma", "Auth"],
+    features: [
+      "Authentification securisee",
+      "Gestion des eleves et notes",
+      "Generation de rapports",
+      "Panel administrateur",
+    ],
+    icon: <Database size={22} />,
+    gradient: "from-accent/20 to-accent/5",
+    link: "#",
+    year: "2025",
+    image: "/images/project-gestion-scolaire.jpg",
+  },
+  {
+    title: "Projet HOLICORP ",
+    subtitle: "Site Web d'Arcade ",
+    description:
+      "Site vitrine pour la presentation d'arcade architecture ",
+    longDescription:
+      "  J’ai réalisé le site web de Arcade SARL, une entreprise d’architecture dirigée par Alhouseni Touré.Le site a été conçu avec WordPress, en utilisant le thème Adsett, que j’ai personnalisé pour correspondre à l’identité visuelle et aux besoins de l’entreprise.L’objectif était de créer une plateforme moderne, élégante et professionnelle pour présenter les projets architecturaux, les services et les réalisations de l’entreprise.",
+    tags: ["Wordpress", "Elementor Pro",],
+    features: [
+      "La personnalisation du thème",
+      "La structuration des contenus",
+      "L’optimisation de l’affichage responsive",
+      "L’amélioration de l’expérience utilisateur",
+    ],
+    icon: <ShoppingBag size={22} />,
+    gradient: "from-primary/20 to-accent/5",
+    link: "#",
+    year: "2024",
+    image: "/images/arcade.jpeg",
+  },
+
   {
     title: "ChatApp",
     subtitle: "Messagerie temps reel",

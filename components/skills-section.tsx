@@ -14,8 +14,7 @@ const skillCategories: SkillCategory[] = [
     title: "Front-End",
     label: "Specialite",
     skills: [
-      { name: "React.js", level: "Avance" },
-      { name: "JavaScript ES6+", level: "Avance" },
+      { name: "React.js", level: "Intermediaire" },
       { name: "CSS3 / Tailwind", level: "Avance" },
       { name: "Responsive Design", level: "Avance" },
       { name: "Framer Motion", level: "Intermediaire" },
@@ -25,10 +24,10 @@ const skillCategories: SkillCategory[] = [
     title: "Back-End",
     label: "En progression",
     skills: [
-      { name: "Node.js", level: "Intermediaire" },
+      { name: "Node.js", level: "Debutant" },
       { name: "MySQL", level: "Intermediaire" },
       { name: "Prisma ORM", level: "Apprentissage" },
-      { name: "API RESTful", level: "Intermediaire" },
+      { name: "API RESTful", level: " Debutant" },
     ],
   },
   {
@@ -39,6 +38,10 @@ const skillCategories: SkillCategory[] = [
       { name: "Vite" },
       { name: "Figma" },
       { name: "VS Code" },
+      { name: "Antigravity" },
+      { name: " planethoster" },
+      { name: " Cpanel" },
+
     ],
   },
   {
@@ -47,7 +50,7 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Agile / Scrum" },
       { name: "Clean Code" },
-      { name: "Component-Driven" },
+
     ],
   },
 ]

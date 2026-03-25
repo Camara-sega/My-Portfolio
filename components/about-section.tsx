@@ -48,7 +48,7 @@ const timeline = [
     year: "2024",
     title: "Specialisation React.js",
     description:
-      "Maitrise de React.js, CSS , et creation de mes premiers projets professionnels.",
+      "Apprentissage  de React.js , et creation de mes premiers projets professionnels.",
     icon: <Sparkles size={16} />,
   },
   {
@@ -62,7 +62,7 @@ const timeline = [
     year: "2026",
     title: "Developpeur ambitieux",
     description:
-      "En route vers le Full-Stack avec la vision de creer des produits digitaux pour l'Afrique.",
+      "En route vers le Full-Stack avec la vision de creer des produits digitaux pour le Mali.",
     icon: <Heart size={16} />,
   },
 ]
@@ -71,7 +71,7 @@ const quickFacts = [
   { icon: <Calendar size={14} />, label: "22 ans" },
   { icon: <MapPin size={14} />, label: "Mali" },
   { icon: <Briefcase size={14} />, label: "Front-End Dev" },
-  { icon: <GraduationCap size={14} />, label: "Autodidacte" },
+
 ]
 
 export function AboutSection() {
@@ -110,19 +110,15 @@ export function AboutSection() {
               </div>
               <p className="text-lg leading-relaxed text-muted-foreground md:text-xl">
                 Developpeur Front-End de{" "}
-                <span className="font-medium text-foreground">21 ans</span>, je
-                suis passionne par la creation {"d'interfaces"} web qui allient
-                esthetique et performance. Mon expertise principale :{" "}
+                <span className="font-medium text-foreground">22 ans</span>, je
+                suis passionne par la creation {"d'interfaces"} beaux et performants.
+                Mon expertise principale :{" "}
                 <span className="font-medium text-primary">React.js</span>.
               </p>
               <p className="mt-5 text-base leading-relaxed text-muted-foreground">
-                Chaque ligne de code que {"j'ecris"} a un objectif : offrir une
-                experience utilisateur{" "}
-                <span className="font-medium text-foreground">
-                  fluide, intuitive et memorable
-                </span>
-                . Je ne me contente pas de coder, je concois des experiences
-                digitales qui marquent les esprits.
+                Chaque ligne de code que{"j'ecris"}   sert à rendre l’expérience utilisateur{" "} facile, agréable et mémorable.
+
+                Je ne fais pas que coder, je crée des expériences digitales qui restent dans les esprits.
               </p>
 
               {/* Quick facts row */}
@@ -155,15 +151,15 @@ export function AboutSection() {
                 {[
                   {
                     title: "Pixel Perfect",
-                    desc: "Chaque detail compte. Du spacing a la typographie, rien n'est laisse au hasard.",
+                    desc: "Je fais attention à chaque détail : espacements, typographie… rien n’est laissé au hasard.",
                   },
                   {
                     title: "Performance First",
-                    desc: "Code optimise, lazy loading, et architecture pensee pour la vitesse.",
+                    desc: "Je code de façon optimisée pour que les sites soient rapides et efficaces.",
                   },
                   {
                     title: "User Centric",
-                    desc: "L'utilisateur est au centre de chaque decision de design et de developpement.",
+                    desc: " L’utilisateur est au cœur de mes choix de design et de développement.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="group">
@@ -260,7 +256,7 @@ export function AboutSection() {
               <div className="flex flex-wrap gap-3">
                 {[
                   "React.js",
-                  "JavaScript ES6+",
+                  "React native",
                   "Tailwind CSS",
                   "Node.js",
                   "MySQL",
@@ -269,7 +265,7 @@ export function AboutSection() {
                   "Figma",
                   "Framer Motion",
                   "Vite",
-                  "API REST",
+
                 ].map((tech) => (
                   <span
                     key={tech}
